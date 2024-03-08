@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
-
+  "I am a Problem Solver and a Passionate Final-Year B.Tech student in CSE with a keen interest in full-stack web dev. On the front end, I have deep understanding of JavaScript, including the latest ES6+ features, Typescript and I am proficient in React. Moving to the back end, I am skilled in server-side technologies like Node.js, Express.js, and database systems like MongoDB or MySQL.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "HTML CSS JavaScript",
+  "ReactJs Tailwind",
+  "Node Express EJS",
+  "NextJs GraphQL",
+  "MongoDB PostgreSQL",
+  "Version Control(Git)",
+  "CI/CD with Docker",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative way.";
 
 const About = () => {
   return (
