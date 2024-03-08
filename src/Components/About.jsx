@@ -37,6 +37,7 @@ const skillsList = [
   "MongoDB PostgreSQL",
   "Version Control(Git)",
   "CI/CD with Docker",
+  "DSA in Java"
 ];
 
 /**
@@ -55,7 +56,7 @@ const About = () => {
         style={{
           backgroundColor: "white",
           width: "50%",
-          padding: "4rem",
+          padding: "2rem",
           margin: "3rem auto",
           textAlign: "center",
         }}
