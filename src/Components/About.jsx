@@ -1,34 +1,11 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
-
 import React from "react";
-
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
 import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
-/**
- * Sort description that expands on your title on the Home component.
- */
 const description =
-  "I am a Problem Solver and a Passionate Final-Year B.Tech student in CSE with a keen interest in full-stack web dev. On the front end, I have deep understanding of JavaScript, including the latest ES6+ features, Typescript and I am proficient in React. Moving to the back end, I am skilled in server-side technologies like Node.js, Express.js, and database systems like MongoDB or MySQL.";
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
+  "I am a Problem Solver and a Passionate Final-Year B.Tech student in CSE with a keen interest in full-stack web dev. On the front end, I have a deep understanding of JavaScript, including the latest ES6+ features, Typescript and I am proficient in React. Moving to the back end, I am skilled in server-side technologies like Node.js, Express.js, and database systems like MongoDB or MySQL.";
+
 const skillsList = [
   "HTML CSS JavaScript",
   "ReactJs Tailwind",
@@ -40,13 +17,8 @@ const skillsList = [
   "DSA in Java"
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative way.";
+  "I am passionate about solving problems in new creative ways.";
 
 const About = () => {
   return (
@@ -67,7 +39,7 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
+            columns: "2",
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
